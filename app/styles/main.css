@@ -2,7 +2,7 @@
 body {
   padding: 0;
   margin: 0;
-  width: 100px;
+  width: 180px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/liujin\/chrome-apps\/puffant-urls\/app\/styles\/main\.scss}line{font-family:\000037}}
 body ul {
@@ -15,9 +15,10 @@ body ul li a {
   display: block;
   padding: 10px;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
+  border-bottom: 1px solid #eee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/liujin\/chrome-apps\/puffant-urls\/app\/styles\/main\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/liujin\/chrome-apps\/puffant-urls\/app\/styles\/main\.scss}line{font-family:\0000318}}
 body ul li a:hover {
   background-color: #f9f9f9;
 }
