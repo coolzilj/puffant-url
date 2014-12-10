@@ -2,7 +2,8 @@
   "name": "puffant-urls",
   "version": "0.0.0",
   "dependencies": {
-    "firebase": "~2.0.6"
+    "firebase": "~2.0.6",
+    "underscore": "~1.7.0"
   },
   "devDependencies": {}
 }

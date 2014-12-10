@@ -1,13 +1,23 @@
 'use strict';
 
-var urlsRef = new Firebase('https://puffant-urls.firebaseio.com/');
+$(document).ready(function(){
 
-urlsRef.set({
-  title: "Hello World!",
-  author: "Firebase",
-  location: {
-    city: "San Francisco",
-    state: "California",
-    zip: 94103
-  }
+   $('body').on('click', 'a', function(){
+     chrome.tabs.create({url: $(this).attr('href')});
+     return false;
+   });
+
+  var urlsRef = new Firebase('https://puffant-urls.firebaseio.com/');
+
+  urlsRef.on('value', function(snapshot) {
+    _.each(snapshot.val(), function(item) {
+      $('ul').append(
+        $('<li>').append(
+          $('<a>').attr('href', item.url).append(item.name)
+      ));
+    });
+  });
+
 });
+
+

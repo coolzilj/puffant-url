@@ -1,4 +1,23 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/liujin\/chrome-apps\/puffant-urls\/app\/styles\/main\.scss}line{font-family:\000032}}
 body {
-  padding: 20px;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/liujin\/chrome-apps\/puffant-urls\/app\/styles\/main\.scss}line{font-family:\000037}}
+body ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/liujin\/chrome-apps\/puffant-urls\/app\/styles\/main\.scss}line{font-family:\0000312}}
+body ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/liujin\/chrome-apps\/puffant-urls\/app\/styles\/main\.scss}line{font-family:\0000317}}
+body ul li a:hover {
+  background-color: #f9f9f9;
 }
