@@ -1,0 +1,34 @@
+[ {
+  "name" : "网站：小象网",
+  "url" : "http://www.puffant.com"
+}, {
+  "name" : "网站：BlanchePrints",
+  "url" : "http://www.blancheprints.com"
+}, {
+  "name" : "网站：纸悦网",
+  "url" : "http://www.merrypapery.com"
+}, {
+  "name" : "网站：生产中心",
+  "url" : "http://prod.puffant.com"
+}, {
+  "name" : "工具：Trello",
+  "url" : "http://trello.com"
+}, {
+  "name" : "工具：有道云",
+  "url" : "http://note.youdao.com/"
+}, {
+  "name" : "工具：Teambition",
+  "url" : "http://teambition.com"
+}, {
+  "name" : "Staging: 小象网",
+  "url" : "http://v4.sz.puffant.com/"
+}, {
+  "name" : "Staging: 纸悦网",
+  "url" : "http://staging.sz.merrypapery.com/"
+}, {
+  "name" : "Staging: 生产中心",
+  "url" : "http://prod.staging.sz.puffant.com/"
+}, {
+  "name" : "Staging: BlanchePrints",
+  "url" : "http://staging.sz.blancheprints.com"
+} ]

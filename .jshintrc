@@ -21,6 +21,7 @@
     "chrome": true,
     "Firebase": true,
     "$": true,
-    "_": true
+    "_": true,
+    "AV": true
   }
 }
